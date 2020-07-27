@@ -1,0 +1,29 @@
+{
+  "name": "line-segmentation-gcp-vision-ocr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/7codeRO/line-segmentation-gpc-vision-ocr.git"
+  },
+  "keywords": [
+    "segmentation",
+    "gcp",
+    "google",
+    "vision",
+    "ocr",
+    "google-vision",
+    "text-extraction",
+    "algorithm"
+  ],
+  "author": "7code",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/7codeRO/line-segmentation-gpc-vision-ocr/issues"
+  },
+  "homepage": "https://github.com/7codeRO/line-segmentation-gpc-vision-ocr#readme"
+}
