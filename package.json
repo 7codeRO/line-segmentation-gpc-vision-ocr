@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -20,7 +20,7 @@
     "text-extraction",
     "algorithm"
   ],
-  "author": "7code",
+  "author": "Ion Istrati <ion.istrati@7code.ro> (http://7code.ro)",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/7codeRO/line-segmentation-gpc-vision-ocr/issues"
