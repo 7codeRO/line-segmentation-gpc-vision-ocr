@@ -1,7 +1,7 @@
 {
   "name": "line-segmentation-gcp-vision-ocr",
   "version": "1.0.0",
-  "description": "",
+  "description": "Line segmentation algorithm for GCP Vision OCR.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -25,5 +25,10 @@
   "bugs": {
     "url": "https://github.com/7codeRO/line-segmentation-gpc-vision-ocr/issues"
   },
-  "homepage": "https://github.com/7codeRO/line-segmentation-gpc-vision-ocr#readme"
+  "homepage": "https://github.com/7codeRO/line-segmentation-gpc-vision-ocr#readme",
+  "dependencies": {
+    "@google-cloud/vision": "^2.1.1",
+    "deepcopy": "^2.0.0",
+    "js-levenshtein": "^1.1.6"
+  }
 }
