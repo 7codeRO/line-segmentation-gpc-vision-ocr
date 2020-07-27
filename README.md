@@ -8,7 +8,7 @@ This feature is meant to intelligible merge the content into paragraphs and bloc
 
 The image below shows the sample output for a document which should be sectioned: 
 
-![enter image description here](https://lh3.google.com/u/0/d/16mxuiZJUjagYfVB0v2q4tfNKLoUD1pJn=w2880-h936-iv1)
+![enter image description here](https://drive.google.com/uc?export=view&id=16mxuiZJUjagYfVB0v2q4tfNKLoUD1pJn)
 
 This behaviour creates a real problem in the process of information extraction. This particular case was my problem, I was supposed to find a solution to provide an adequate output.
 
@@ -19,10 +19,10 @@ Phases of the algorithm:
 
  - **Merge words/characters which are very close**: the first stage concatenate nearby characters to form words and sentences with characters which have bounding polygons almost merged. This phase helps to reduce the computation needed for the next steps.
  - **Creating bounding polygon**: stage two creates an imaginary system of coordinates with each word/sentence in a polygon(*as in the image below*).
- ![enter image description here](https://lh3.google.com/u/0/d/1zryKdJIbW5fOPvPEAPj6o2w_Hu_k0H5f=w2880-h1578-iv1)
+ ![enter image description here](https://drive.google.com/uc?export=view&id=1zryKdJIbW5fOPvPEAPj6o2w_Hu_k0H5f)
 
  - **Combine bounding polygon**: the third stage parses through the data and inline the elements. The algorithm tries to fit words into single lines, creating a bigger polygon for each line. (*image below*)
-![enter image description here](https://lh3.google.com/u/0/d/1boPtpd6zrVCXcfgNIYdpJXEhnWaG0XPj=w2880-h936-iv1)
+![enter image description here](https://drive.google.com/uc?export=view&id=1boPtpd6zrVCXcfgNIYdpJXEhnWaG0XPj)
  - **Construct lines**: in the final stage algorithm merges words/sentences into single lines and returns the result as an array containing each line.
 
 ### Extra feature
