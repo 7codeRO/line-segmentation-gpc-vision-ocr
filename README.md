@@ -38,7 +38,7 @@ Use the following command to install the package.
 All you need to do is to provide the data from the GCP Vision OCR to the init function from the package. The function returns the content processed and segmented by lines. Data should be provided as JSON or directly from GCP response.
 There is a simple example of usage:
 ```
-const segmentation = require("line-segmentation-algorithm-to-gcp-vision");
+const segmentation = require("line-segmentation-gcp-vision-ocr");
 
 // call GCP Vision and retrieve results
 let gcpResponse = {};
