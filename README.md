@@ -44,6 +44,22 @@ const segmentation = require("line-segmentation-gcp-vision-ocr");
 let gcpResponse = {};
 let segmentedResult = segmentation.init(gcpResponse[0]['responses'][0]);
 ```
+
+This is based on a response from processing an image using Google Cloud Vision's [client.textDetection](https://googleapis.dev/nodejs/vision/latest/v1.ImageAnnotatorClient.html#textDetection) or [client.documentTextDetection](https://googleapis.dev/nodejs/vision/latest/v1.ImageAnnotatorClient.html#documentTextDetection).
+
+For example:
+
+```
+const vision = require('@google-cloud/vision');
+const client = new vision.ImageAnnotatorClient({
+    // Proiect ID from Google Cloud Vision
+    projectId: 'your-project-id',
+    // Keyfile from Google Cloud Vision
+    keyFilename: './google-vision-api-keyfile.json',
+});
+data = client.documentTextDetection(filePath);
+```
+
 ## Issues
 Currently, the algorithm works on scanned documents, horizontally oriented.
 ## Future Work
